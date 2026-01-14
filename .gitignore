@@ -208,7 +208,9 @@ __marimo__/
 
 
 # CSV
-.csv
+*.csv
 
 # json
-.json
+*.json
+
+cache/
