@@ -1,0 +1,35 @@
+=== Column Names ===
+['battery_1', 'battery_2', 'distance', 'cycle', 'Veh_speed', 'Loaded', 'loaded', 'Route', 'Time', 'Execution_cycle', 'SOC_battery_1', 'SOC_battery_2', 'V_battery_1', 'V_battery_2', 'I_battery_1', 'I_battery_2', 'SoMPA_battery_1', 'SoMPA_battery_2', 'Power_battery_1', 'Power_battery_2', 'vehicle_speed']
+
+=== Data Types ===
+battery_1          float64
+battery_2          float64
+distance           float64
+cycle                int64
+Veh_speed          float64
+Loaded             float64
+loaded             float64
+Route               object
+Time                object
+Execution_cycle      int64
+SOC_battery_1      float64
+SOC_battery_2      float64
+V_battery_1        float64
+V_battery_2        float64
+I_battery_1        float64
+I_battery_2        float64
+SoMPA_battery_1    float64
+SoMPA_battery_2    float64
+Power_battery_1    float64
+Power_battery_2    float64
+vehicle_speed      float64
+dtype: object
+
+=== First 5 Rows ===
+      battery_1     battery_2  distance  cycle  Veh_speed  Loaded  loaded           Route             Time  Execution_cycle  SOC_battery_1  SOC_battery_2  V_battery_1  V_battery_2  I_battery_1  I_battery_2  SoMPA_battery_1  SoMPA_battery_2  Power_battery_1  Power_battery_2  vehicle_speed
+0  14295.640324  11978.215715  0.000126      1   0.251835     0.0     NaN  S1_C1_to_C0582  0 days 00:00:00                0       0.993911       0.973830   646.293309   643.011898    22.119431    18.628296    287208.607317    285317.520572     14295.640324     11978.215715       0.251835
+1  10459.284550   6776.984864  0.000012     50   0.024214     0.0     NaN  S1_C1_to_C0582  0 days 00:00:00                0       0.964300       0.995654   641.680711   648.355302    16.299827    10.452579    284483.535047    287381.648932     10459.284550      6776.984864       0.024214
+2  12767.703262   9906.678597  0.000095     81   0.190575     0.0     NaN  S1_C1_to_C0582  0 days 00:00:00                0       0.996066       0.977069   647.074143   644.076000    19.731438    15.381226    287422.832252    285609.990875     12767.703262      9906.678597       0.190575
+3  10309.602990   6574.050518  0.000000      5   0.000000     0.0     NaN  S1_C1_to_C0582  0 days 00:00:00                0       0.997278       0.978912   647.879104   645.177315    15.912850    10.189525    287544.290312    285778.562743     10309.602990      6574.050518       0.000000
+4  13756.944699  11247.866271  0.000116     49   0.232017     0.0     NaN  S1_C1_to_C0582  0 days 00:00:00                0       0.955238       0.993348   639.395082   646.877093    21.515562    17.387950    283726.495487    287152.967756     13756.944699     11247.866271       0.232017
+

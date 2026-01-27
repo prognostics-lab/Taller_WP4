@@ -214,3 +214,6 @@ __marimo__/
 *.json
 
 cache/
+*.zip
+*.xlsx
+/Exploracion Datos/eda_output/cycles_detailed
